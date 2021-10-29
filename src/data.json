@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Express Delivery",
+    "description": "These are Extra urgent delivery documents in the company's list of enveloped services categories, under the 'Super Express Service'. The Booking rate for each document is BDT 120 / - only.",
+    "imgUrl": "https://i.ibb.co/DVzyJ0z/photo-1.jpg",
+    "details": "When you use an express courier to ship something internationally, they will be responsible for handling your package from the origin country all the way to the destination country. ... Once it passes customs, the destination country's postal service will handle the rest of the delivery."
+  },
+  {
+    "title": "Corporate/Bulk Delivery",
+    "description": "We cater to corporate clients, businesses, institutes and their need for sending consignments in bulk.",
+    "imgUrl": "https://i.ibb.co/BZWs17P/photo-2.jpg",
+    "details": "Bulk delivery means the delivery of a product by tanker direct to the end-user. ... Bulk delivery means placing gasoline or special fuel not intended for resale in storage or containers. The term does not mean gasoline or special fuel delivered into the supply tank of a motor vehicle."
+  },
+  {
+    "title": "Value Declared Service",
+    "description": "Under this service, through our countrywide 110 branches and agency offices, we collect the value declared amount against “Ecommerce and Condition Parcel Products”",
+    "imgUrl": "https://i.ibb.co/ct6HJDT/photo-3.jpg",
+    "details": "The declared value of your shipment indicates UPS's maximum liability for a package that is lost or damaged. ... You can choose to declare a higher value for your shipment up to the maximum allowed in your country or territory."
+  },
+  {
+    "title": "Delivery of Heavy Goods",
+    "description": "We make special arrangements within our logistics network to ensure the delivery of heavier consignments.",
+    "imgUrl": "https://i.ibb.co/mtTPpWQ/photo-4.jpg",
+    "details": "For even heavier items, try UPS Ground. The service accepts packages that weigh up to 150 pounds. For very large and heavy items such as furniture, FedEx Freight might save you money on shipping. Heavy products need to ship in stronger cardboard boxes to stay secure in transit."
+  },
+  {
+    "title": "Document Service",
+    "description": "Under this service we are providing document delivery for both corporate and retail customers nationwide.",
+    "imgUrl": "https://i.ibb.co/2K629H1/photo-5.jpg",
+    "details": "Under this service we are providing document delivery for both corporate and retail customers nationwide. Envelopes weighing between 01 to 200 grams are being serviced. These documents are being distributed vide 600+ outlets across Bangladesh."
+  },
+  {
+    "title": "Mobile & ICT Equipment Service",
+    "description": "These are regular parcel services limited to the mobile and ICT importers/distributors/manufacturers and vendors. who seek the parcel delivery services from us.",
+    "imgUrl": "https://i.ibb.co/xsGTyXG/photo-6.jpg",
+    "details": "These are regular parcel services limited to the mobile and ICT importers/distributors/manufacturers and vendors. who seek the parcel delivery services from us. Their terms of payment is also defined in their contract or agreement.Charges are received from the customer at the rate of BDT 20 / - per document delivery as per valid agreement"
+  }
+]
