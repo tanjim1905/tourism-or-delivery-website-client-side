@@ -12,7 +12,7 @@ const AddService = () => {
       } = useForm();
       const onSubmit = (data) => {
           console.log(data);
-        fetch('http://localhost:7000/addServices', {
+        fetch('https://boiling-shelf-94607.herokuapp.com/addServices', {
             method: 'POST',
             headers: {"content-type": "application/json"},
             body: JSON.stringify(data)

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
+import './Nav.css';
 
 const Nav = () => {
   const { user, logOut } = useAuth();
@@ -8,8 +9,8 @@ const Nav = () => {
     <>
       <nav className="navbar navbar-expand-lg sticky-top bg-white navbar-light">
         <div className="container">
-          <Link className="navbar-brand" to="/home">
-            E-Courier
+          <Link className="navbar-brand fw-bolder" to="/home">
+            <span className="text-success">E</span><span className="text-danger">-</span><span className="text-success">Courier</span>
           </Link>
           <button
             className="navbar-toggler"
@@ -61,7 +62,7 @@ const Nav = () => {
             </ul>
             <div className="register-part">
               {user.email ? (
-                <button className="btn btn-danger rounded" onClick={logOut}>Logout</button>
+                <button className="btn btn-danger rounded ms-2" onClick={logOut}>Logout</button>
               ) : (
                 <Link to="/register">
                   <button className="btn btn-success rounded">Register</button>

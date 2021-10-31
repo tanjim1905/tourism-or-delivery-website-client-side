@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div className="col-12 col-lg-6">
           <h2 className="text-center">About Us</h2>
           <p>
-            We, Universal Courier situated at Malad West, Mumbai, Maharashtra,
+            We, Universal Courier situated at Dhaka, Bangladesh,
             are one of the prominent courier service companies offering an array
             of services, in a wide network, that covers a number of locations.
             We are committed to offer fast, reliable and on-time deliveries of

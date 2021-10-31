@@ -15,14 +15,7 @@ const Footer = () => {
                   <h5 className="text-uppercase mb-4">About company</h5>
 
                   <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
-                    corrupti.
-                  </p>
-
-                  <p>
-                    Blanditiis praesentium voluptatum deleniti atque corrupti
-                    quos dolores et quas molestias.
+                  We, Universal Courier situated at Dhaka, Bangladesh, are one of the prominent courier service companies offering an array of services, in a wide network, that covers a number of locations. We are committed to offer fast, reliable and on-time deliveries of your consignments. We specialize in the rapid, cost-effective and reliable delivery of parcels with active customer support.
                   </p>
 
                   <div className="mt-4">
@@ -90,7 +83,7 @@ const Footer = () => {
                       <span className="fa-li">
                         <i className="fas fa-home"></i>
                       </span>
-                      <span className="ms-2">New York, NY 10012, US</span>
+                      <span className="ms-2">Dhaka, 10012, Bangladesh</span>
                     </li>
                     <li className="mb-3">
                       <span className="fa-li">

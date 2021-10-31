@@ -30,7 +30,7 @@ const Details = () => {
   const onSubmit = (data) => {
     data.order = singleDetails;
     data.status = 'Pending';
-    fetch('http://localhost:7000/orders', {
+    fetch('https://boiling-shelf-94607.herokuapp.com/orders', {
       method: 'POST',
       headers: {"content-type": "application/json"},
       body: JSON.stringify(data)
@@ -69,11 +69,11 @@ const Details = () => {
         <div>
         <h2>Send Your Information</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <input defaultValue={user.displayName} {...register("name")} /> <br />
-          <input defaultValue={user.email} {...register("email", { required: true })} /> <br />
-          <input placeholder="Mobile Number" type="number" {...register("phone", { required: true })} /> <br />
-          <input placeholder="Your Address" {...register("address", { required: true })} /> <br />
-          <input type="submit" />
+          <input className="py-2 px-3 my-2" defaultValue={user.displayName} {...register("name")} /> <br />
+          <input className="py-2 px-3 my-2" defaultValue={user.email} {...register("email", { required: true })} /> <br />
+          <input className="py-2 px-3 my-2" placeholder="Mobile Number" type="number" {...register("phone", { required: true })} /> <br />
+          <input className="py-2 px-3 my-2" placeholder="Your Address" {...register("address", { required: true })} /> <br />
+          <input className="py-2 px-3 my-2 bg-danger fw-bold text-white" type="submit" />
         </form>
         </div>
       </div>

@@ -21,8 +21,9 @@ const Services = () => {
       </div>)
   }
   return (
-    <div className="container">
+    <div className="container my-5">
       <h2 className="text-center">Our Services</h2>
+      <p className="px-5 text-center">We offer the full spectrum of services to help organizations work better. Everything from creating standards of excellence to training your people to work in more effective ways, assessing how you’re doing, and helping you perform even better in future.</p>
 
       <div className="row g-4">
         {services.map((service) => (

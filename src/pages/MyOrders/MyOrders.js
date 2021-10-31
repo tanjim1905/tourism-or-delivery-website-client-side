@@ -6,14 +6,14 @@ const MyOrders = () => {
   const { user } = useAuth();
   const [myOrders, setMyOrders] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:7000/myorders/${user.email}`)
+    fetch(`https://boiling-shelf-94607.herokuapp.com/myorders/${user.email}`)
       .then((res) => res.json())
       .then((data) => setMyOrders(data));
   }, [user.email]);
-  console.log(myOrders);
+//   console.log(myOrders);
   return (
-    <div>
-      <h2>Your Order List</h2>
+    <div className="container">
+      <h2 className="text-center my-4">Your Order List</h2>
       <div className="row">
       {
           myOrders.map(myOrder => <OrdersList

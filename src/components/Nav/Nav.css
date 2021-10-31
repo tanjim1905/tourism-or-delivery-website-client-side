@@ -1,0 +1,9 @@
+ul li a:hover {
+  border: 2px solid red;
+  color: green !important;
+  border-radius: 5px;
+}
+
+ul li a {
+  font-weight: bold !important;
+}
