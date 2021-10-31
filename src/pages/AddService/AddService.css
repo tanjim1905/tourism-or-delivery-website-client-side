@@ -1,0 +1,11 @@
+.add-service {
+  background-color: rgb(242, 242, 242);
+}
+
+form input,
+textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid green;
+  border-radius: 5px;
+}

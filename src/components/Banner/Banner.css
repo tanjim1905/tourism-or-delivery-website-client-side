@@ -1,7 +1,11 @@
 .banner {
-  background-image: url(../../images/banner-bg1.jpg);
+  background-image: url(../../images/banner-bg.jpg);
   height: 500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.banner-text {
+  min-height: 80vh !important;
 }

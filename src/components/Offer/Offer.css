@@ -1,0 +1,55 @@
+.offer-main {
+  background-image: url(../../images/offer.jpg);
+  background-position: left;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+
+.offer-container {
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 5px 10px 100px rgb(223, 209, 209);
+  padding: 30px;
+  line-height: 2rem;
+}
+
+.offer-price {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.offer-container h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.discount {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* MediaQuery for small screen */
+@media only screen and (max-width: 600px) {
+  .offer-container {
+    width: 300px;
+    text-align: center;
+    margin-right: 5px;
+    margin: 0px auto !important;
+  }
+
+  .offer-price {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .offer-container h1 {
+    font-size: 50;
+    font-weight: 600;
+  }
+
+  .discount {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}

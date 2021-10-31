@@ -1,0 +1,25 @@
+.newsteller {
+  background-image: url(https://i.ibb.co/C68hmLm/newsteller.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+
+.subscribe input {
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.subscribe input::placeholder {
+  color: #fff;
+}
+
+.subscribe button {
+  border: 1px solid #fff;
+  outline: none;
+  background-color: #fd556d;
+  padding: 4px 10px;
+}
